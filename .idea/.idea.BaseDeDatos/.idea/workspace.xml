@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51ba5fbb-7f9c-4fba-8b29-f803a1314089" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Channels/CurrentUserName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Channels/CurrentUserName.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Database/ScoreDTB.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Database/ScoreDTB.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseDeDatos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseDeDatos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2DAssets/kenvector_future_thin SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2DAssets/kenvector_future_thin SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Managers.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Managers.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DataBaseMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DataBaseMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Database/Login.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Database/Login.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Database/ServerAdminManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Database/ServerAdminManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691102559374</updated>
       <workItem from="1691102562362" duration="1479000" />
-      <workItem from="1691104653911" duration="21699000" />
+      <workItem from="1691104653911" duration="24347000" />
     </task>
     <servers />
   </component>
