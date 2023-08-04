@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9060738690195228362}
   - component: {fileID: 2949530594770078872}
   - component: {fileID: 8849345844641242215}
+  - component: {fileID: 8589161245618041034}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -116,3 +117,18 @@ MonoBehaviour:
   firstSceneName: Level1
   tutorialSceneName: Tutorial
   menuSceneName: MainMenu
+  nameTosave: {fileID: 11400000, guid: 2e8cade3880a19e4f80d954daff0fca3, type: 2}
+--- !u!114 &8589161245618041034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3463420292624133770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a59803648e547a7bfcfbd578774f85e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: []
+  nameTosave: {fileID: 11400000, guid: 2e8cade3880a19e4f80d954daff0fca3, type: 2}

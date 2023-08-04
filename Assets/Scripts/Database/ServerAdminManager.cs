@@ -11,6 +11,7 @@ public class ServerAdminManager : MonoBehaviour
 
     private string connectionData;
     private MySqlConnection connection;
+    
     void Start()
     {
         connectionData             = "Server=" + serverDataBase
@@ -56,4 +57,5 @@ public class ServerAdminManager : MonoBehaviour
         MySqlDataReader result = command.ExecuteReader();
         return result;
     }
+    
 }

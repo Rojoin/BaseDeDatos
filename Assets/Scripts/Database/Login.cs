@@ -8,6 +8,7 @@ using UnityEngine.Serialization;
 
 public class Login : MonoBehaviour
 {
+    
     public TMPro.TMP_InputField user;
     public TMPro.TMP_InputField pass;
     public TMPro.TextMeshProUGUI alertText;
@@ -17,6 +18,7 @@ public class Login : MonoBehaviour
     public CanvasGroup register;
     [SerializeField] private float maxTime = 5f;
     public UnityEvent onSuccesfullLogin;
+    public CurrentUserName nameToSave;
 
     private void Awake()
     {
@@ -28,8 +30,14 @@ public class Login : MonoBehaviour
         string log = "`users` WHERE `user` LIKE '" + user.text + "' AND `pass` LIKE '" + pass.text + "'";
 
         MySqlDataReader result = serverAdminManager.Select(log);
+
         if (result.HasRows)
         {
+            if (result.Read())
+            {
+                nameToSave.userId = result.GetInt32("idUser");
+            }
+
             Debug.Log("Succesfull Login");
             onSuccesfullLogin.Invoke();
         }
@@ -64,7 +72,7 @@ public class Login : MonoBehaviour
                 else
                 {
                     result.Close();
-                    log = "`users`(`id`, `user`, `pass`) VALUES (NULL,'" + user.text + "','" + pass.text + "')";
+                    log = "`users`(`idUser`, `user`, `pass`) VALUES (NULL,'" + user.text + "','" + pass.text + "')";
                     result = serverAdminManager.Insert(log);
                     string error = "User created succesfully!";
                     StartCoroutine(errorText(error));

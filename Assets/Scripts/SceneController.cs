@@ -13,6 +13,7 @@ public class SceneController : MonoBehaviour
     [SerializeField] private string firstSceneName = "Level1";
     [SerializeField] private string tutorialSceneName = "Tutorial";
     [SerializeField] private string menuSceneName = "MainMenu";
+    [SerializeField] private CurrentUserName nameTosave;
 
     private void Awake()
     {
@@ -53,7 +54,10 @@ public class SceneController : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings-1)
         {
+            nameTosave.score = PlayerPrefs.GetInt("Score");
+            ScoreDTB.AddNewScoreStatic(nameTosave);
             SceneManager.LoadScene(menuSceneName);
+            PlayerPrefs.SetInt("Score",0);
         }
         else
         {
