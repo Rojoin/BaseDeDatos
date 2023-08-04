@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d534645452cedfc4abdc82054ecb6b81, type: 3}
+  m_Name: BulletConfigTurret
+  m_EditorClassIdentifier: 
+  velocity: 70
+  damage: 30
+  directionHandler: {fileID: 11400000, guid: c82bff6c3cbb2a1469208bb9c0b26f32, type: 2}
